@@ -1,0 +1,95 @@
+{
+  "legal": {
+    "title": "Viktig informasjon om beregningen",
+    "p1": "Dette er en veiledende beregning basert på opplysningene du selv har registrert. Fagklar har ikke kontrollert eller godkjent arbeidserfaringen eller dokumentasjonen din.",
+    "p2": "Beregningen gir ingen garanti for at praksisen blir godkjent. Det er alltid fylkeskommunen der du bor, som vurderer dokumentasjonen din og avgjør om du oppfyller kravene for å melde deg opp til fagprøven."
+  },
+  "product": {
+    "title": "Praksiskalkulator for kokkfaget",
+    "intro": "Finn ut omtrent hvor mye relevant arbeidserfaring du har, og hva du kan mangle før fagprøven.",
+    "privacy": "Du trenger ingen konto. Opplysningene blir beregnet i nettleseren og sendes ikke til Fagklar eller fylkeskommunen.",
+    "start": "Start beregningen",
+    "reset": "Start på nytt",
+    "back": "Tilbake",
+    "next": "Neste",
+    "print": "Skriv ut / lagre som PDF"
+  },
+  "steps": [
+    "Start",
+    "Fylke",
+    "Arbeidserfaring",
+    "Skolegang",
+    "Erfaring og eksamen",
+    "Resultat"
+  ],
+  "status": {
+    "below_threshold": "Det ser ut til at du mangler praksistid",
+    "estimated_at_or_above_threshold": "Den beregnede praksistiden ser ut til å nå tidskravet",
+    "requires_review": "Noen opplysninger må avklares først",
+    "incomplete": "Vi trenger litt mer informasjon"
+  },
+  "competencies": [
+    {
+      "key": "production",
+      "label": "Tilberedning og matproduksjon",
+      "example": "Lage kalde og varme retter, desserter og tilbehør med ulike metoder."
+    },
+    {
+      "key": "ingredients",
+      "label": "Råvarer og bærekraft",
+      "example": "Bearbeide kjøtt, fisk og grønnsaker og utnytte råvarer godt."
+    },
+    {
+      "key": "planning",
+      "label": "Meny og planlegging",
+      "example": "Planlegge menyer, mengder, produksjon og måltider."
+    },
+    {
+      "key": "safety",
+      "label": "Mattrygghet og allergener",
+      "example": "Følge rutiner for hygiene, trygg mat og tilpasning ved allergier."
+    },
+    {
+      "key": "storage",
+      "label": "Lagring og merking",
+      "example": "Ta imot varer, lagre riktig, merke og kontrollere råvarer."
+    },
+    {
+      "key": "economics",
+      "label": "Økonomi og ressursbruk",
+      "example": "Beregne mengder, kostnader og arbeide for mindre matsvinn."
+    },
+    {
+      "key": "hms",
+      "label": "HMS og samarbeid",
+      "example": "Bruke utstyr sikkert, samarbeide og følge HMS-rutiner."
+    }
+  ],
+  "warnings": {
+    "county_unverified": "Vi har ikke bekreftet om fylket ditt regner 80 % stilling som heltid. Stillingsprosenten er derfor regnet som oppgitt.",
+    "county_expired": "Fylkesregelen er ikke nylig kontrollert. Kontroller beregningen hos fylkeskommunen.",
+    "unknown_relevance": "En arbeidsperiode har usikker faglig relevans. Den er ikke lagt til hovedberegningen.",
+    "ignored_irrelevant": "En arbeidsperiode er merket som ikke relevant og er derfor ikke tatt med.",
+    "overlap_capped": "Arbeidsperioder overlapper. Det er ikke beregnet mer enn full praksistid for samme tidsrom.",
+    "hour_overlap_review": "Timene overlapper en annen periode. De er ikke lagt til før tidsfordelingen er avklart.",
+    "hour_period_capped": "Timetallet er høyere enn full praksistid for perioden. Det er satt et tak på én heltidsekvivalent.",
+    "extra_hours_review": "Ekstratimer uten månedsfordeling er ikke lagt til. Be om oversikt per måned for å unngå dobbelttelling.",
+    "short_period_review": "En arbeidsperiode er kortere enn to måneder. Fylkeskommunen må vurdere dokumentasjonen.",
+    "older_practice_review": "Mindre enn halvparten av arbeidserfaringen ser ut til å være fra de siste ti årene. Dette er et veiledende vurderingspunkt.",
+    "recentness_uncertain": "Timelister uten fordeling over perioden gjør det vanskelig å vurdere hvor ny praksisen er.",
+    "special_evidence_review": "Egen virksomhet, praksis fra utlandet eller annen arbeidsform kan kreve særskilt dokumentasjon.",
+    "documentation_missing": "En eller flere arbeidsgiverattester mangler eller er uavklart.",
+    "school_overlap_review": "Mulig godskriving av skolegang forutsetter at tid ikke blir dobbelttelt med samtidig praksis.",
+    "other_school_review": "Annen eller ufullført skolegang må vurderes særskilt av fylkeskommunen.",
+    "prior_trade_review": "Tidligere fagbrev kan gi godskriving, men er ikke summert automatisk med skolegang.",
+    "county_decision_review": "Et oppgitt vedtak om godskriving er ikke kontrollert og er ikke summert automatisk.",
+    "competence_gap": "Du har oppgitt lite erfaring med et eller flere fagområder. Undersøk om du trenger mer allsidig praksis.",
+    "exam_not_passed": "Bestått skriftlig Vg3-eksamen i kokkfaget (KOK3103) er et eget krav før fagprøven.",
+    "education_not_documented": "Mulig godskriving av skolegang er ikke kontrollert. Skaff vitnemål eller kompetansebevis."
+  },
+  "links": {
+    "curriculum": "https://www.udir.no/lk20/kok03-02",
+    "udirGuide": "https://www.udir.no/regelverk-og-tilsyn/skole-og-opplaring/veileder-om-praksiskandidatordningen/",
+    "exam": "https://www.udir.no/lk20/fagkoder/kok3103?lang=nob"
+  }
+}
