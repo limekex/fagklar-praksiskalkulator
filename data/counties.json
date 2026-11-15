@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "ruleVersion": "2026-11-15-mvp.1",
+  "requiredMonths": 60,
+  "hoursPerMonth": 145,
+  "verifiedNote": "80 %-regelen brukes bare der den er bekreftet i fylkets egen veiledning.",
+  "counties": [
+    {
+      "code": "ostfold",
+      "name": "Østfold",
+      "officialUrl": "https://ofk.no/tjenester/skole-og-opplaring/opplaring-i-bedrift/praksiskandidat/",
+      "verification": "unverified",
+      "fteThreshold": null,
+      "verifiedAt": null,
+      "nextReviewDue": null,
+      "sources": []
+    },
+    {
+      "code": "akershus",
+      "name": "Akershus",
+      "officialUrl": "https://afk.no/tjenester/skole-og-opplaring/opplaring-i-bedrift/praksiskandidat/",
+      "verification": "verified",
+      "fteThreshold": 0.8,
+      "verifiedAt": "2026-11-15",
+      "nextReviewDue": "2027-05-15",
+      "sources": [
+        "https://afk.no/tjenester/skole-og-opplaring/opplaring-i-bedrift/praksiskandidat/"
+      ]
+    },
+    {
+      "code": "oslo",
+      "name": "Oslo",
+      "officialUrl": "https://www.oslo.kommune.no/skole-og-utdanning/opplaring-i-bedrift/fagbrev-som-voksen/fagbrev-som-praksiskandidat",
+      "verification": "unverified",
+      "fteThreshold": null,
+      "verifiedAt": null,
+      "nextReviewDue": null,
+      "sources": []
+    },
+    {
+      "code": "buskerud",
+      "name": "Buskerud",
+      "officialUrl": "https://bfk.no/tjenester/skole-og-opplaring/opplaring-i-bedrift/praksiskandidat/",
+      "verification": "unverified",
+      "fteThreshold": null,
+      "verifiedAt": null,
+      "nextReviewDue": null,
+      "sources": []
+    },
+    {
+      "code": "innlandet",
+      "name": "Innlandet",
+      "officialUrl": "https://innlandetfylke.no/tjenester/skole-og-utdanning/opplaring-i-bedrift/praksiskandidat/",
+      "verification": "unverified",
+      "fteThreshold": null,
+      "verifiedAt": null,
+      "nextReviewDue": null,
+      "sources": []
+    },
+    {
+      "code": "vestfold",
+      "name": "Vestfold",
+      "officialUrl": "https://www.vestfoldfylke.no/no/meny/tjenester/opplaring/opplaring-i-bedrift/har-du-laretid-i-bedrift-og-lurer-pa-noe/soke-laereplass/Ulike_veier_til_fagbrev/praksiskandidat/",
+      "calculatorUrl": "https://skjema.vestfoldfylke.no/skjema/VFK0288/Ny_praksiskalkulator",
+      "verification": "verified",
+      "fteThreshold": 0.8,
+      "verifiedAt": "2026-11-15",
+      "nextReviewDue": "2027-05-15",
+      "sources": [
+        "https://skjema.vestfoldfylke.no/skjema/VFK0288/Ny_praksiskalkulator"
+      ]
+    },
+    {
+      "code": "telemark",
+      "name": "Telemark",
+      "officialUrl": "https://www.telemarkfylke.no/no/meny/tjenester/opplaring-og-folkehelse/opplaring-i-bedrift/praksiskandidat/",
+      "calculatorUrl": "https://skjema.telemarkfylke.no/skjema/TFK0219/Praksiskalkulator",
+      "verification": "verified",
+      "fteThreshold": 0.8,
+      "verifiedAt": "2026-11-15",
+      "nextReviewDue": "2027-05-15",
+      "sources": [
+        "https://skjema.telemarkfylke.no/skjema/TFK0219/Praksiskalkulator"
+      ]
+    },
+    {
+      "code": "agder",
+      "name": "Agder",
+      "officialUrl": "https://agderfk.no/vare-tjenester/skole-og-opplaring/opplaring-i-bedrift/praksiskandidat-privatist/",
+      "verification": "unverified",
+      "fteThreshold": null,
+      "verifiedAt": null,
+      "nextReviewDue": null,
+      "sources": []
+    },
+    {
+      "code": "rogaland",
+      "name": "Rogaland",
+      "officialUrl": "https://www.rogfk.no/vare-tjenester/skole-og-utdanning/opplaring-i-bedrift/praksiskandidat/",
+      "verification": "unverified",
+      "fteThreshold": null,
+      "verifiedAt": null,
+      "nextReviewDue": null,
+      "sources": []
+    },
+    {
+      "code": "vestland",
+      "name": "Vestland",
+      "officialUrl": "https://vestlandfylke.no/utdanning-og-karriere/voksen/fagbrev-som-praksiskandidat/",
+      "verification": "unverified",
+      "fteThreshold": null,
+      "verifiedAt": null,
+      "nextReviewDue": null,
+      "sources": []
+    },
+    {
+      "code": "more-og-romsdal",
+      "name": "Møre og Romsdal",
+      "officialUrl": "https://mrfylke.no/tenester/skole-og-opplaring/opplaring-i-bedrift/fagbrev-som-vaksen/praksiskandidat/",
+      "verification": "unverified",
+      "fteThreshold": null,
+      "verifiedAt": null,
+      "nextReviewDue": null,
+      "sources": []
+    },
+    {
+      "code": "trondelag",
+      "name": "Trøndelag",
+      "officialUrl": "https://www.trondelagfylke.no/vare-tjenester/utdanning/Opplaering_i_bedrift/Andre-veier-til-fag-svennebrev/Praksiskandidat/",
+      "verification": "verified",
+      "fteThreshold": 0.8,
+      "verifiedAt": "2026-11-15",
+      "nextReviewDue": "2027-05-15",
+      "sources": [
+        "https://www.trondelagfylke.no/vare-tjenester/utdanning/Opplaering_i_bedrift/Andre-veier-til-fag-svennebrev/Praksiskandidat/"
+      ]
+    },
+    {
+      "code": "nordland",
+      "name": "Nordland",
+      "officialUrl": "https://www.nfk.no/tjenester/skole-og-opplaring/opplaring-for-voksne/fagbrev-som-voksen/fagbrev-som-praksiskandidat/",
+      "verification": "verified",
+      "fteThreshold": 0.8,
+      "verifiedAt": "2026-11-15",
+      "nextReviewDue": "2027-05-15",
+      "sources": [
+        "https://www.nfk.no/tjenester/skole-og-opplaring/opplaring-for-voksne/fagbrev-som-voksen/fagbrev-som-praksiskandidat/"
+      ]
+    },
+    {
+      "code": "troms",
+      "name": "Troms",
+      "officialUrl": "https://www.tromsfylke.no/tjenester/skole-og-opplaring/opplaring-i-bedrift/fagbrev-som-voksen/praksiskandidat/",
+      "verification": "unverified",
+      "fteThreshold": null,
+      "verifiedAt": null,
+      "nextReviewDue": null,
+      "sources": []
+    },
+    {
+      "code": "finnmark",
+      "name": "Finnmark",
+      "officialUrl": "https://www.ffk.no/tjenester/skole-og-opplaring/opplaring-i-bedrift/fagbrev-som-voksen/praksiskandidat/",
+      "verification": "unverified",
+      "fteThreshold": null,
+      "verifiedAt": null,
+      "nextReviewDue": null,
+      "sources": []
+    }
+  ]
+}
