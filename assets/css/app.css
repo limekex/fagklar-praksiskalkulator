@@ -1,0 +1,50 @@
+/* Scoped, mobile-first Fagklar praksiskalkulator MVP */
+.fk-praksis{--fk-ink:#192934;--fk-muted:#576775;--fk-primary:#146b57;--fk-border:#dce5e3;--fk-soft:#f2f8f5;color:var(--fk-ink);font:inherit;line-height:1.55;max-width:100%;box-sizing:border-box}
+.fk-praksis *{box-sizing:border-box}
+.fk-praksis__inner{max-width:960px;margin:0 auto}
+.fk-praksis__body{border:1px solid var(--fk-border);border-radius:18px;padding:clamp(18px,4vw,38px);background:#fff}
+.fk-praksis h2{font-size:clamp(1.5rem,3vw,2.1rem);font-weight:750;line-height:1.2;margin:0 0 16px}
+.fk-praksis h3{font-size:1.1rem;line-height:1.3;margin:0 0 12px}
+.fk-praksis p{margin:0 0 16px}
+.fk-praksis a{color:#075b48;text-decoration:underline;text-underline-offset:3px}
+.fk-praksis__stepper{max-width:960px;margin:0 auto 12px;color:var(--fk-muted);font-size:.9rem}
+.fk-praksis__stepper p{margin:0}
+.fk-praksis__eyebrow{font-weight:750;letter-spacing:.08em;color:var(--fk-primary);font-size:.75rem;text-transform:uppercase}
+.fk-praksis__lead{font-size:1.1rem}
+.fk-praksis__hero{background:var(--fk-soft);border-radius:12px;padding:24px;margin-bottom:22px}
+.fk-praksis__legal{border-left:4px solid #146b57;padding:16px 18px;margin:24px 0;background:#f5f8f7;border-radius:0 10px 10px 0}
+.fk-praksis__legal p:last-child{margin-bottom:0}
+.fk-praksis__actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:26px}
+.fk-praksis__button{appearance:none;border:2px solid #146b57;border-radius:9px;background:#146b57;color:white;padding:11px 17px;min-height:46px;font:inherit;font-weight:650;cursor:pointer;transition:background .15s}
+.fk-praksis__button:hover{background:#0e5949;border-color:#0e5949}
+.fk-praksis__button--secondary{background:#fff;color:#146b57}
+.fk-praksis__button--secondary:hover{background:#e7f2ed;color:#0e5949}
+.fk-praksis__button--quiet{background:transparent;border-color:transparent;color:#374e5c}
+.fk-praksis__button--quiet:hover{background:#eef3f2;border-color:#eef3f2}
+.fk-praksis :is(button,input,select,a):focus-visible{outline:3px solid #d59d32;outline-offset:3px}
+.fk-praksis__fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 22px;margin:22px 0}
+.fk-praksis__field{display:flex;flex-direction:column;gap:7px;min-width:0;font-weight:650}
+.fk-praksis__field span{display:block}
+.fk-praksis__field :is(input,select){width:100%;padding:11px 12px;min-height:45px;background:white;border:1px solid #9dacae;border-radius:8px;color:var(--fk-ink);font-size:1rem;font-weight:400}
+.fk-praksis__field small,.fk-praksis small{color:var(--fk-muted);font-weight:400;line-height:1.4}
+.fk-praksis__hint{background:#eef5fb;border-left:3px solid #4f80a7;padding:15px;border-radius:7px}
+.fk-praksis__job{padding:20px;border:1px solid var(--fk-border);border-radius:12px;margin:18px 0}
+.fk-praksis__job-head{display:flex;align-items:center;justify-content:space-between;gap:18px}
+.fk-praksis__job-head h3{margin:0}
+.fk-praksis__remove{background:transparent;border:1px solid #b3c1bf;border-radius:8px;padding:7px 12px;color:#6f2727;cursor:pointer}
+.fk-praksis__check{display:flex;align-items:center;gap:10px;margin:12px 0;font-weight:500}
+.fk-praksis__check input{width:19px;height:19px;accent-color:#146b57}
+.fk-praksis__validation{border:2px solid #aa4444;background:#fff3f3;padding:13px 17px;margin-bottom:24px;border-radius:10px}
+.fk-praksis__result-heading{margin-bottom:24px}
+.fk-praksis__result-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.fk-praksis__result-grid>div{display:flex;flex-direction:column;gap:9px;background:#f5f8f7;border-radius:12px;padding:16px}
+.fk-praksis__result-grid span{color:#364b57}
+.fk-praksis__result-grid strong{font-size:clamp(1.6rem,3.5vw,2.4rem);font-variant-numeric:tabular-nums;line-height:1.15}
+.fk-praksis__result-grid .fk-praksis__result-primary{background:#e5f2ed}
+.fk-praksis__progress{height:12px;margin:20px 0;border-radius:999px;background:#e2ebe7;overflow:hidden}
+.fk-praksis__progress>div{height:100%;background:#146b57;border-radius:inherit}
+.fk-praksis__section{padding-top:20px;margin-top:22px;border-top:1px solid var(--fk-border)}
+.fk-praksis__notes li{margin:9px 0}
+.fk-praksis__section ul,.fk-praksis__section ol{padding-left:23px}
+@media(max-width:650px){.fk-praksis__fields,.fk-praksis__result-grid{grid-template-columns:1fr}.fk-praksis__actions{flex-direction:column;align-items:stretch}.fk-praksis__button{width:100%}.fk-praksis__job{padding:13px}.fk-praksis__body{padding:16px}}
+@media print{.fk-praksis{color:#111}.fk-praksis__no-print,.fk-praksis__stepper,.fk-praksis__button{display:none!important}.fk-praksis__body{border:0;padding:0}.fk-praksis__legal{break-inside:avoid;background:#fff;border:1px solid #aaa}.fk-praksis__section{break-inside:avoid}.fk-praksis__result-grid>div{background:white;border:1px solid #ddd}.fk-praksis__result-primary{background:white!important}}
