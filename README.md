@@ -68,13 +68,13 @@ Kildene er registrert 15. november 2026. Dette dokumenterer ikke fremtidig gyldi
 
 ## Utvikling og tester
 
-Ingen `npm install` nødvendig. Krever Node.js 20+ til test og PHP 8+ for adapter-smoketest.
+Ingen `npm install` nødvendig. Krever Node.js 20+ til test. GitHub Actions kontrollerer også PHP-syntaks med PHP CLI.
 
 ```bash
 npm test
 ```
 
-Testene dekker 20 spesifiserte akseptansescenarioer, ekstra regneeksempler, juridisk copy og en simulert brukerflyt. `tests/wordpress-smoke.php` kjører med testdobler for WordPress-funksjoner. Dette erstatter ikke installasjonstest på en virkelig WordPress-instans.
+GitHub-repositoriet inneholder automatiske tester for beregningsmotoren, forbeholdene og viktige grensetilfeller. Den opprinnelige MVP-kildepakken hadde også nettleser- og WordPress-smoketester. Disse er foreløpig ikke importert til GitHub. Dette erstatter ikke installasjonstest på en virkelig WordPress-instans.
 
 ## Filer
 
@@ -86,7 +86,7 @@ assets/js/app.js                  Trinnvis UI, bare i nettleser
 assets/css/app.css                Mobilvennlig, scoped design og print
 data/counties.json               Kildestyrte fylkesregler
 data/copy-nb.json                Norsk copy og obligatorisk forbehold
-tests/                            Automatiserte tester
+tests/engine.test.js              Automatiserte tester av beregningsmotor
 docs/                             Tidligere teknisk- og copyspesifikasjon
 .github/workflows/ci.yml         CI
 ```
