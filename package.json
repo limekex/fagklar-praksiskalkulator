@@ -1,0 +1,13 @@
+{
+  "name": "fagklar-praksiskalkulator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Anonymous estimated chef-trade practice time calculator for WordPress",
+  "scripts": {
+    "check": "node --check assets/js/engine.js && node --check assets/js/app.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
